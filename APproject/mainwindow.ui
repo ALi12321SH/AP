@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainwindow</class>
+ <widget class="QMainWindow" name="mainwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>mainwindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="mainBackground">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>620</width>
+      <height>413</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="recources.qrc">:/mainBackground.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="servicesPB">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>240</y>
+      <width>351</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>معرفی بخش های بیمارستان</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="registerPB">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>150</y>
+      <width>351</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ثبت نام</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="welcomeLabel">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>به سامانه ی بیمارستان خوش آمدید</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginPB">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>180</y>
+      <width>351</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ورود</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="doctorsPB">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>210</y>
+      <width>351</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>پزشکان</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="recources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

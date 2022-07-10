@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>doctorsIntroduction</class>
+ <widget class="QMainWindow" name="doctorsIntroduction">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>680</width>
+    <height>361</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>معرفی پزشکان</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>680</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="recources.qrc">:/doctorsIntroductionBackground.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="NeurologyDoctorsPB">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>230</y>
+      <width>281</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>مغز و اعصاب</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dentistDoctorPB">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>110</y>
+      <width>281</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>دندانپزشکی</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="digestionDoctorsPB">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>140</y>
+      <width>281</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>گوارش</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="heartDoctorsPB">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>200</y>
+      <width>281</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>داخلی قلب</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="doctorsIntroductionlbl">
+    <property name="geometry">
+     <rect>
+      <x>208</x>
+      <y>20</y>
+      <width>281</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>برای یافتن پزشک مورد نظر،روی بخش مربوطه کلیک کنید</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="orthopedistDoctorsPB">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>170</y>
+      <width>281</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ارتوپدی</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="recources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

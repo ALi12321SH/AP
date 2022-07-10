@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>doctors</class>
+ <widget class="QMainWindow" name="doctors">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>330</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>پزشکان</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="DoctorsBackground">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>330</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="recources.qrc">:/DoctorsBackground.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="doctorsLabel">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>لطفا گزینه ی مورد نظر خود را انتخاب کنید</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="introPB">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>291</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>معرفی پزشکان</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="schedulePB">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>291</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>برنامه ی پزشکان</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="recources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

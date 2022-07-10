@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>hospitalSections</class>
+ <widget class="QMainWindow" name="hospitalSections">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>معرفی بخش های بیمارستان</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>750</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="recources.qrc">:/hospitalSectionsBackground.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hospitalSectionslbl">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>30</y>
+      <width>291</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>برای کسب اطلاعات بیشتر روی بخش مورد نظر کلیک کنید</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dentistrySectionPB">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>210</y>
+      <width>281</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>بخش دندانپزشکی</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="NeurologySectionPB">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>330</y>
+      <width>281</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>بخش مغز و اعصاب</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="orthopedySectionPB">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>270</y>
+      <width>281</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>بخش ارتوپدی</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="heartSectionPB">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>300</y>
+      <width>281</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>بخش داخلی قلب</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="digestionSectionPB">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>240</y>
+      <width>281</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>بخش گوارش</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="recources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

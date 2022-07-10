@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userpage</class>
+ <widget class="QDialog" name="userpage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1036</width>
+    <height>667</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="ledname"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="name">
+       <property name="text">
+        <string>نام :</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLineEdit" name="ledage"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="age">
+       <property name="text">
+        <string>سن :</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLineEdit" name="ledncode"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="ncode">
+       <property name="text">
+        <string>کدملی :</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLineEdit" name="lednumber"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="number">
+       <property name="text">
+        <string>تلفن :</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QLineEdit" name="ledemali"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="email">
+       <property name="text">
+        <string>ایمیل :</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>neurologyDoctorsIntro</class>
+ <widget class="QMainWindow" name="neurologyDoctorsIntro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>665</width>
+    <height>424</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>پزشکان بخش مغز و اعصاب</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="neurologyGroup">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>621</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>مغز و اعصاب</string>
+    </property>
+    <widget class="QLabel" name="DrMahmoudMotamedi">
+     <property name="geometry">
+      <rect>
+       <x>17</x>
+       <y>35</y>
+       <width>251</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="recources.qrc">:/dr.MahmoudMotamedi.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DrMotamediName">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>300</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>دکتر محمود معتمدی</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DrMotamediSpecialty">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>320</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>نورولوژیست</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DrHosseinPourmahmoudian">
+     <property name="geometry">
+      <rect>
+       <x>307</x>
+       <y>35</y>
+       <width>271</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="recources.qrc">:/dr.HosseinPourmahmoudian.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DrMahmoudianName">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>300</y>
+       <width>131</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>دکتر حسین پورمحمودیان</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DrMahmoudianSpecialty">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>320</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>نورولوژیست</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="recources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

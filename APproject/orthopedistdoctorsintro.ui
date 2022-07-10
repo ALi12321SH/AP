@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>orthopedistDoctorsIntro</class>
+ <widget class="QMainWindow" name="orthopedistDoctorsIntro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>660</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>پزشکان بخش ارتوپدی</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="orthopedistGroup">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>601</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>ارتوپدی</string>
+    </property>
+    <widget class="QLabel" name="DrAhmadShahla">
+     <property name="geometry">
+      <rect>
+       <x>7</x>
+       <y>35</y>
+       <width>271</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="recources.qrc">:/dr.AhmadShahla.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DrShahlaName">
+     <property name="geometry">
+      <rect>
+       <x>77</x>
+       <y>310</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>دکتر احمد شهلا</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DrShahlaSpecialty">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>330</y>
+       <width>48</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ارتوپد</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DrEsmaeilAbbasi">
+     <property name="geometry">
+      <rect>
+       <x>307</x>
+       <y>35</y>
+       <width>261</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="recources.qrc">:/dr.EsmaeilAbbasi.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DrAbbasiName">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>310</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>دکتر اسماعیل عباسی</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="DrAbbasiSpecialty">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>330</y>
+       <width>48</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ارتوپد</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="recources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

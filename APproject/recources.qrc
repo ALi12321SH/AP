@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mainBackground.jpg</file>
+        <file>doctor1.jpg</file>
+        <file>dr.HosseinBehnia.jpeg</file>
+        <file>dr.MohammadJavadTohidpour.jpg</file>
+        <file>dr.AfshinRoshanpour.jpg</file>
+        <file>dr.ShahrokhMousavi.jpg</file>
+        <file>dr.NaserEbrahimi.jpg</file>
+        <file>dr.AhmadShahla.jpg</file>
+        <file>dr.EsmaeilAbbasi.jpg</file>
+        <file>dr.MasoudGhasemi.jpg</file>
+        <file>dr.MohammadAbazari.jpg</file>
+        <file>dr.MahmoudMotamedi.jpg</file>
+        <file>dr.HosseinPourmahmoudian.jpg</file>
+        <file>orthopedySectionBackground.jpg</file>
+        <file>dentistrySectionBackground.jpg</file>
+        <file>heartSectionBackground.jpg</file>
+        <file>digestionSectionBackground.jpg</file>
+        <file>neurologySectionBackground.jpg</file>
+        <file>DoctorsBackground.png</file>
+        <file>doctorsIntroductionBackground.jpg</file>
+        <file>hospitalSectionsBackground.jpg</file>
+    </qresource>
+</RCC>
